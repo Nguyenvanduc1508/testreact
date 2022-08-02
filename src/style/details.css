@@ -1,0 +1,28 @@
+
+.productinfo__slider img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.productinfo__details--info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productinfo__details {
+    padding: 0 70px 50px 70px;
+}
+.details__left--name {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.productinfo__details-left p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+.productinfo__details-right h1 {
+    font-size: 50px;
+}
+.productinfo__details--ttct h2 {
+    margin-top: 5px;
+}

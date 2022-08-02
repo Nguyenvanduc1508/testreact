@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    padding: 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__left {
+    display: flex;
+    align-items: center;
+}
+.company {
+    display: flex;
+    margin-left: 35px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 27px;
+}
+.ditagis {
+    margin-right: 5px;
+}
+.ditagis__D {
+    color: #FD0001;
+}
+.rent__R {
+    color: #0000FD;
+}
+.header__right span{
+    color: #FF2170;
+    font-weight: bold;
+    cursor: pointer;
+}
+.header__right {
+    text-decoration: none;
+}
+.header__right .heart {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.header__right .like {
+    font-size: 27px;
+    padding-right: 50px;
+}

@@ -1,0 +1,24 @@
+.category {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.category > button {
+    border: none;
+    outline: none;
+    color: #000;
+    padding: 10px 50px;
+    margin-right: 17px;
+    background-color: #c5c5c5;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.category button:focus {
+    background-color: #7f355c !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    
+}

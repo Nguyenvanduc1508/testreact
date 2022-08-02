@@ -1,0 +1,107 @@
+.slider {
+    width: 100%;
+    position: relative;
+}
+.slider img {
+    width: 100%;
+}
+.slider h1 {
+    font-size: 69px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    color: #fff;
+}
+.slider__fillter {
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    width: 64%;
+    padding: 20px 40px;
+    background-color: #7f355c;
+    border-radius: 10px;
+}
+.slider__fillter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider__fillter--details {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.fillter__details--conscious {
+    margin-right: 20px;
+    width: 45%;
+}
+.fillter__details--area {
+    width: 45%;
+}
+.conscious__select--wrp,
+.conscious__area--wrp {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+.conscious__select--wrp span:first-child,
+.conscious__area--wrp span:first-child {
+    color: #808080;
+    font-size: 15px;
+}
+.conscious,
+.area {
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.slider-fillter--search {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #382749;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.fillter__search--first {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.conscious__select--sub {
+    display: none;
+    position: absolute;
+    width: 88%;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 0 15px 10px 15px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.conscious__select--wrp:hover .conscious__select--sub,
+.conscious__area--wrp:hover .conscious__select--sub {
+    display: block;
+    top: 100%;
+    left: 0;
+}
+.conscious__select--sub p {
+    margin-bottom: 0;
+}
+.icon-fillter {
+    font-size: 10px;
+    margin-left: -5px;
+    margin-top: 3px;
+}
+.flex-icon {
+    display: flex;
+    align-items: center;
+}
